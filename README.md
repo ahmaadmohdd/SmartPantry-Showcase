@@ -32,27 +32,27 @@ use those items up.
 ## Features
 
 **Getting food in**
-- 🧾 **Receipt scanning** — photograph a grocery receipt; OCR reads it and an LLM turns
+- **Receipt scanning** — photograph a grocery receipt; OCR reads it and an LLM turns
   abbreviated receipt lines (think "ORG BBY SPNCH") into clean pantry items with categories.
   You review and confirm before anything is saved.
-- 🔍 **Barcode scanning** — scan a product's barcode to add it with its brand.
-- 📅 **Expiry-date scanning** — photograph the printed "best before" date and it overrides the
+- **Barcode scanning** — scan a product's barcode to add it with its brand.
+- **Expiry-date scanning** — photograph the printed "best before" date and it overrides the
   estimate for that item.
-- ✍️ **Manual entry** with units (pcs, g, kg, ml, l), brands and custom categories (emoji or icon).
+- **Manual entry** with units (pcs, g, kg, ml, l), brands and custom categories (emoji or icon).
 
 **Keeping track**
-- ⏳ **Automatic expiry dates** from a curated shelf-life table keyed by food and storage
+- **Automatic expiry dates** from a curated shelf-life table keyed by food and storage
   location — moving spinach from the fridge to the freezer recalculates its date.
-- 🔔 **Daily expiry sweep** — a scheduled server job finds items about to expire and sends
+- **Daily expiry sweep** — a scheduled server job finds items about to expire and sends
   push notifications.
-- 🍳 **Recipe suggestions** generated only from what's expiring soon, so the suggestion is
+- **Recipe suggestions** generated only from what's expiring soon, so the suggestion is
   always "use this up", not "go shopping".
 
 **Sharing**
-- 🏠 **Multiple pantries** — each with its own invite code and member list, so a household,
+- **Multiple pantries** — each with its own invite code and member list, so a household,
   a flat-share and an office kitchen can each have one.
-- 💊 **Food and medicine sections** in every pantry, with medicine expiry tracked the same way.
-- 🌍 **English, Arabic (RTL), Spanish and French**, plus light and dark mode.
+- **Food and medicine sections** in every pantry, with medicine expiry tracked the same way.
+- **English, Arabic (RTL), Spanish and French**, plus light and dark mode.
 
 ## How it works
 
